@@ -1,0 +1,6 @@
+# Wszystkie polecenia, które pojawiły się na zajęciach.
+# Trochę zeszło z instalacją, zachęcam do zerknięcia do grupy 2, nadrobimy :)
+
+apt-get install cmatrix
+sudo apt-get install cmatrix
+cmatrix 

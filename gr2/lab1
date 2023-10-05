@@ -1,0 +1,35 @@
+# Wszystkie polecenia, które pojawiły się na zajęciach,
+# do samodzielnego testowania :)
+
+apt-get install git
+cat /bin/mv
+cat sources.list
+cd
+cd .
+cd ..
+cd /
+cd /etc
+cd /etc/apt/
+cd /etc/apt/sources.list.d/
+cd sources.list
+cd sources.list.d/
+cd tmp/
+cd ~
+clear
+file /bin/mv 
+file /etc/apt/sources.list
+file mleko 
+file sources.list
+file sources.list.d
+git
+git --version
+ls
+ls -alt mleko 
+ls -altR
+ls mleko 
+man
+man git
+pwd
+sudo apt-get install cmatrix
+sudo apt-get install git
+touch mleko
