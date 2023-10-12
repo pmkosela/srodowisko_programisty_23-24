@@ -1,0 +1,28 @@
+./skrypt 
+MLEKO='to zmienne mleko';
+alias
+alias mleko='echo MLECZKO'
+chmod +x skrypt 
+clear
+cp inny_plik plik
+echo $MLEKO
+echo $PATH
+echo mleko
+less .bashrc 
+ll
+ls
+ls -a
+ls -a -l -t
+ls -alt
+ls; ls -l
+mkdir -p pmk/dir1/dir2
+mkdir pmk
+mv plik inny_plik
+nano plik 
+rm -r pmk
+rm jakis_plik 
+rmdir pmk2
+tail .bash_history 
+touch plik
+vi .bash_history 
+vi skrypt 

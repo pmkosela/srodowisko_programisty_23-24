@@ -1,0 +1,32 @@
+#komentarz
+./zyje 
+chmod +x zyje 
+alias
+bash
+clear
+echo "mleko"
+exit
+head wgetrc 
+l
+less wgetrc 
+ll
+ll ~/a.out 
+ls
+ls --help
+ls -a
+ls -a -l -t
+ls -alt
+man cd
+man git
+man ls
+man rm
+mkdir pudelko
+mv skrzynka_mleka przeniesiona_skrzynka_mleka
+nano zyje 
+rm -r _katalog
+rm _katalog
+rm _katalog/jakis_plik 
+rmdir przeniesiona_skrzynka_mleka/
+tail wgetrc 
+touch zyje
+vi .bash_history 
