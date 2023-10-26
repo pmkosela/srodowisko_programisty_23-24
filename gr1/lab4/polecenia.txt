@@ -1,0 +1,32 @@
+chmod 777 plik
+chmod a+rwx plik
+chmod a+x  plik
+chmod a-x katalog
+chmod g-r plik
+chmod o+w plik
+chmod u+x katalog
+chmod u-r katalog
+chown root plik
+chown warsztaty:warsztaty plik
+fdisk -l
+fdisk -l &| head -n 5
+fdisk -l > head
+fdisk -l | head
+fdisk -l | head -n 5
+fdisk -l |& head -n 5
+fdisk -l |& head -n 5 2> err2
+fdisk -l |& head -n 5 > err1
+ll
+ll /var/log
+ls /dev/
+ls > err1
+ls err1 err0 &> err3
+ls plik plik1 &> output
+ls plik plik1 2> output
+ls plik1 2> output
+ls plik1 2>> output
+ls plik2 plik0  > err1 2> err2
+ls | wc
+ls | wc -c
+wc -c
+wc -c plik
