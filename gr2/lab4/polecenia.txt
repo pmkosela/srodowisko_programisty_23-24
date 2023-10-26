@@ -1,0 +1,38 @@
+chmod +033 plik2
+chmod -077 plik2
+chmod 777 plik
+chmod 777 plik2 
+chmod a+r plik2
+chmod a+x katalog
+chmod a-r a+x katalog/
+chmod a-r plik2 
+chmod a-r+x katalog/
+chmod a-x katalog
+chmod a-x+w plik2 
+chmod a=w katalog/
+chmod u+r katalog/
+chmod u+x katalog/
+chmod u+x plik
+chown root:root katalog/
+ll
+ll /var/log/
+ls >> katalog/plik
+ls >> plik2
+ls plik > wyjscie_ls
+ls plik plik1
+ls plik plik1 &> wyjscie_ls_oba 
+ls plik plik1 &| wc -c
+ls plik plik1 2> wyjscie_ls_err 
+ls plik plik1 2> wyjscie_ls_oba > wyjscie_ls_oba
+ls plik plik1 2> wyjscie_ls_oba >> wyjscie_ls_oba
+ls plik plik1 2>| wc -c
+ls plik plik1 2| wc -c
+ls plik plik1 > wyjscie_ls
+ls plik plik1 > wyjscie_ls_oba 2>> wyjscie_ls_oba
+ls plik plik1 | wc -c
+ls plik plik1 |& wc -c
+ls plik plik1 |2 wc -c
+ls plik | wc -c
+ls plik1 2> wyjscie_ls_err 
+ls plik1 > wyjscie_ls 
+wc -c < wyjscie_ls
