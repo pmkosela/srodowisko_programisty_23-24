@@ -1,0 +1,6 @@
+ln -s mleko kefir
+ln -sr smietana 
+ln -sr smietana ser
+ln mleko jogurt
+watch ls
+watch ls -l
