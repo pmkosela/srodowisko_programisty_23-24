@@ -1,0 +1,7 @@
+ln -s lew akacja
+ln -s zyrafa akacja
+ln -s zyrafa lew
+ln -sr lew surykatka
+ln -sr surykatka lew
+ln lew slon
+watch ls -R -alt
