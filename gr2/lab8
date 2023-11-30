@@ -1,0 +1,8 @@
+htop
+scp -P 22200 lokalny_plik login@krystala.umcs.pl:~/lokalny_plik
+scp -P 22200 login@krystala.umcs.pl:~/plik .
+ssh -i klucz -p 22200 login@krystala.umcs.pl
+ssh -p 22200 login@krystala.umcs.pl
+ssh krystala.umcs.pl
+ssh-copy-id -p 22200 -i klucz.pub login@krystala.umcs.pl
+ssh-keygen 
