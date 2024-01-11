@@ -1,0 +1,14 @@
+git clone git@github.com:pmkosela/testowsze.git # DZIAŁA, JEŚLI skonfigurujemy klucze ssh
+git clone https://github.com/pmkosela/testowsze.git # NIE DZIAŁA
+git clone https://ghp_NoqtEewolololoAbBns21X8Qm8RJ3v0T7rXT@github.com/pmkosela/testowsze.git
+cd testowsze/
+git status
+vi plik
+git add plik 
+git commit -m "Initial commit"
+git config user.email "mail"
+git config user.name "Name"
+git commit -m "Initial commit"
+git push
+git pull
+vimtutor
