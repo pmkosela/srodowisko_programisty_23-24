@@ -1,0 +1,13 @@
+git clone git@github.com:pmkosela/testowe.git # NIE DZIAŁA
+git clone https://ghp_exUXlG2kWRwololoZ7mI68jUe4ySYE3mlTN1@github.com/pmkosela/testowe.git
+cd testowe/
+git status
+vi test
+git add test 
+git commit -m "Initial"
+git config user.email "jakis@mail.pl"
+git config user.name "PPU"
+git commit -m "Initial"
+git push
+git pull
+vimtutor # co najmniej do lekcji 4
