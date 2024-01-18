@@ -1,0 +1,42 @@
+grep
+grep mleko
+grep nie t
+grep -E 'nie' t
+grep -E 'mk' t
+grep -E -i 'mk' t
+grep -E '[mM]k' t
+grep -E '[mM][kK]' t
+grep -E '[mMk][kKo]' t
+grep -E '^[mM][kK]$' t
+grep -E '^[mM][kK]' t
+grep -E '^[0-9]' t
+grep -E '^[2-9]' t
+grep -E '^[a-z]' t
+grep -E '^[A-Z]' t
+grep -E '^[a-Z]' t
+grep -E '^[A-z]' t
+grep -E '^[a-Z]' t
+grep -E '^[nm]' t
+grep -E '^[^nm]' t
+grep -E '^[a^m]' t
+grep -E '^[^]' t
+grep -E '^[\^]' t
+grep -E '^\^' t
+grep -E '^[m][k]' t
+grep -E '^[0-9].[0-9]' t
+grep -E '^[0-9].[0-9]' t;
+grep -E '^[0-9].*[0-9]' t;
+grep -E '^[0-9].?[0-9]' t;
+grep -E 'kolo|nie' t;
+grep -E 'kolo|nie|[mM][kK]' t;
+grep -E '^[pP](ob|ul)' t;
+grep -E '^71{5}8{3}' t;
+grep -E '^7[123]{5}8{3}' t;
+grep -E '^7[123]{2,}8{3}' t;
+grep -E '^7[123]{2,4}8{3}' t;
+grep -E '^7[123]{,5}8{3}' t;
+grep -E '^[s|n]' t
+grep -E '^[-+]?[0-9]*' t
+grep -E '^[-+]?[0-9]?' t
+grep -E '^[-+]?[0-9]{1,}' t
+grep -E '^[-+]?[0-9]{1,}$' t
