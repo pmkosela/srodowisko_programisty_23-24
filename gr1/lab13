@@ -1,0 +1,20 @@
+sed -e '1,4p' t
+sed -n -e '1,4p' t
+sed -n -e '1~2p' t
+sed -n -e '1~3p' t
+sed -n -e '2~3p' t
+sed -n -e '/^[pP]/p' t
+sed -n -e 's/^[pP]/kot' t
+sed -n -e 's/^[pP]/kot/' t
+sed -e 's/^[pP]/kot/' t
+sed -e '/^[pP]/c KOT' t
+sed -e '/^[pP]/a KOT' t
+sed -e '/^[pP]/i KOT' t
+sed -e '/^[pP]/d KOT' t
+sed -e '/^[pP]/d' t
+sed -e 'y/PAD/pad/' t
+sed -e 's/^[a-z]./KK/' t
+sed -e 's/^\([a-z]\)./\1K/' t
+sed -e 's/^\([a-z]\)./\1koteczek/' t
+sed -e 's/e/t/' t 
+sed -e 's/e/t/g' t 
