@@ -1,0 +1,36 @@
+#sed -e 'WYRAŻENIE' plik
+sed -e '1p' t
+sed -n -e '1p' t
+sed -n -e '1,5p' t
+sed -n -e '2,5p' t
+sed -n -e '1~2p' t
+sed -n -e '1~3p' t
+sed -n -e '2~3p' t
+sed -n -e '1,3p; 5,7p' t
+sed -n -e '/^[pP]/p' t
+sed -n -e 's/[Pp]u/pu' t
+sed -n -e 's/[Pp]u/pu/' t
+sed -e 's/[Pp]u/pu/' t
+sed -e 's/$/mlek/' t
+sed -e 's/^/mlek/' t
+sed -e '/^[pP]/c Zupełnie nowy tekst' t
+sed -e '/^[pP]/a Zupełnie nowy tekst' t
+sed -e '/^[pP]/i Zupełnie nowy tekst' t
+sed -e '/^[pP]/d' t
+sed -e 'y/abc/ABC' t
+sed -e 's/' t
+sed -e 'y/abc/ABC' t
+sed -e 'y/abc/ABC/' t
+#sed -i -e 'y/abc/ABC/' t
+sed -e 's/[pPsS]./pK' t
+sed -e 's/[pPsS]./pK/' t
+sed -e 's/\([pPsS]\)./pK' t
+sed -e 's/\([pPsS]\)./pK/' t
+sed -e 's/\([pPsS]\)./\1K/' t
+sed -e 's/[pPsS]./\&K/' t
+sed -e 's/[pPsS]./\\&K/' t
+sed -e 's/[pPsS]./\&K/' t
+sed -e 's/[pPsS]./\\&K/' t
+sed -e 's/e/a'
+sed -e 's/e/a/' t
+sed -e 's/e/a/g' t
