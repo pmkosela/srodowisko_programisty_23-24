@@ -1,0 +1,38 @@
+#!/bin/bash
+
+echo 'hello world';
+
+a=7;
+b=2;
+echo 'a + b =' $(($a + $b));
+echo 'a / b =' $(($a / $b));
+echo "$a / $b" | bc -l;
+
+echo $@;
+echo $0;
+echo $1;
+echo $2;
+
+# -eq -- =
+# -le -- <= less
+# -lt -- <
+# -ge -- >= greater
+# -gt -- >
+if [ 2 -gt 7 ]; then
+	echo 'prawda';
+elif [ 7 -ge 2 ]; then
+	echo 'nieprawda';
+else
+	echo 'nie wiem';
+fi
+
+i=0;
+while [ $i -le 10 ]; do
+	echo $i;
+	((i += 1));
+done;
+
+#for i in {1..10}; do
+for i in 'onufry' 'sliwka' 'ilaczek'; do
+	echo $i;
+done;
